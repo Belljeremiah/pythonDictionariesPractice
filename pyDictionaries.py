@@ -29,4 +29,5 @@ Loop over the dictionary to get the following output:
     The definition of [WORD] is [DEFINITION]
 """
 for (key, value) in word_definitions.items():
-    print(f"{key}: {value}")
+    print(f"The definition  of {key}: is {value}")
+
